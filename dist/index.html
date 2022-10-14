@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+<script defer src="runtime.js"></script><script defer src="index.js"></script></head>
+<body>
+
+
+    <div class="container">
+        <div class="title">
+            <span>Today's To Do</span>
+        </div>
+        <div class="form-field">
+            <form class="form" id="form-section" action="submit">
+                <input type="text" id="input-task" class="input-task" placeholder="Add to your list..." autocomplete="off">
+                <input type="button" id="addBtn" value="+">
+            </form>
+        </div>
+        <div class="ul-container">
+            <ul class="toDoList" id="toDoList">
+
+            </ul>
+            <div class="actions" id="actions">
+                
+            </div>
+            <input type="button" class="clearCompleted" value="Clear all completed">
+        </div>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>

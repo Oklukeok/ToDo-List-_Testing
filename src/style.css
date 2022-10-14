@@ -1,0 +1,77 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 50%;
+  min-height: 10%;
+  border: none;
+  box-shadow: 2px 4px 15px 0 #999;
+}
+
+.input-task {
+  width: 100%;
+  border-color: transparent;
+  padding-block: 1em;
+}
+
+#addBtn {
+  border-color: transparent;
+  cursor: pointer;
+  background-color: #eee;
+  font-size: large;
+  width: 40px;
+  height: 40px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+}
+
+.container > * {
+  border-bottom: 1px solid #80808040;
+  padding-inline: 1em;
+}
+
+input:focus {
+  outline: none;
+}
+
+.ul-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.title {
+  margin-top: 1em;
+  display: flex;
+  color: #666;
+  font-weight: bolder;
+}
+
+.ul-container li {
+  display: flex;
+  align-items: center;
+  gap: 0.7em;
+  padding: 0.5em;
+}
+
+.fa-solid {
+  margin-left: auto;
+}
+
+.clearCompleted {
+  width: 100%;
+  padding: 1em;
+}
+
+.toDoList li {
+  border-bottom: 1px solid #80808040;
+}
