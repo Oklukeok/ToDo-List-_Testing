@@ -2,7 +2,7 @@
 
 # Testing To do list App
 
-> Create tests for different functionalities of the App.
+> Stage 1:  Testing "Add and Remove" functionalities of the App.
 
 
 ## Built With
